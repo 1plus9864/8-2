@@ -1,9 +1,8 @@
 import java.util.LinkedList;
 class MyQueue<T> {
-
+private LinkedList<T> queue;  
     public MyQueue() {
-        private LinkedList<T> queue;  
-        public MyQueue() {
+        
         queue = new LinkedList<>();
     }
 
